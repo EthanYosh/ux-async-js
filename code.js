@@ -16,8 +16,12 @@ window.onload = function () { // Run this once the page has loaded.
 
 
         .then((result) => {
+
             let theList = result.items
             renderUserList(theList);
+
+            <a href="${user.html_url}" target="_blank">
+            <img src="${user.avatar_url}">
         });
 
 
